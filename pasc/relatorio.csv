@@ -1,0 +1,2 @@
+id;regiao;sigla_estado;sigla_municipio;revenda;cnpj_revenda;nome_da_rua;numero_da_rua;complemento;bairro;cep;produto;data_da_coleta;valor_venda;valor_compra;unidade_de_medida;bandeira;createdAt;updatedAt
+3;SE;SP;GUARULHOS;AUTO POSTO SAKAMOTO LTDA; 49.051.667/0001-02;RODOVIA PRESIDENTE DUTRA;S/N;KM 210,5-SENT SP/RJ;BONSUCESSO;07178-580;DIESEL;11/05/2004;1,299;1,1704;R$ / litro;PETROBRAS DISTRIBUIDORA S.A.;26/09/2022;26/09/2022
