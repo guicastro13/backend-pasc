@@ -3,6 +3,8 @@ const readline = require("readline");
 const jsonexport = require("jsonexport");
 const Blob = require("buffer").Blob;
 const path = require("path");
+const multerConfig = require('../src/config')
+
 
 const PrecosCombustiveis = require("../models/PrecosCombustiveis");
 
@@ -61,6 +63,7 @@ module.exports = {
       jsonexport(fileToExport, { rowDelimiter: ";" }, function (err, csv) {
         if (err) return console.error(err);
         csvfile = csv;
+        multer(multerConfig).single(csv)
       });
     }
   },
